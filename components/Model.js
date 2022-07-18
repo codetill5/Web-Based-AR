@@ -9,6 +9,7 @@ const Model = () => (
       alt="A 3D model of an bear"
       shadow-intensity="1"
       camera-controls
+      autoplay
       auto-rotate
       ar
     >
