@@ -4,7 +4,7 @@ const Model = () => (
   <div id="card">
     <model-viewer
       src="/Bear_Walk.glb"
-      ios-src=""
+      ios-src="/Bear_Walk_Animation.usdz"
       poster="https://ichef.bbci.co.uk/news/976/cpsprodpb/EF37/production/_124293216_gettyimages-1237158373.jpg"
       alt="A 3D model of an bear"
       shadow-intensity="1"
