@@ -3,7 +3,7 @@ import '@google/model-viewer';
 const Model = () => (
   <div id="card">
     <model-viewer
-      src="/room.glb"
+      src="/edited.glb"
       ios-src=""
       poster="/unnamed.jpg"
       alt="A 3D model of an Xhype Room"
