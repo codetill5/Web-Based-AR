@@ -3,10 +3,10 @@ import '@google/model-viewer';
 const Model = () => (
   <div id="card">
     <model-viewer
-      src="/Bear_Walk.glb"
-      ios-src="/Bear_Walk_Animation.usdz"
-      poster="https://ichef.bbci.co.uk/news/976/cpsprodpb/EF37/production/_124293216_gettyimages-1237158373.jpg"
-      alt="A 3D model of an bear"
+      src="/room.glb"
+      ios-src=""
+      poster="/unnamed.jpg"
+      alt="A 3D model of an Xhype Room"
       shadow-intensity="1"
       camera-controls
       autoplay
