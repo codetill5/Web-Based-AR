@@ -3,8 +3,8 @@ import '@google/model-viewer';
 const Model = () => (
   <div id="card">
     <model-viewer
-      src="/edited.glb"
-      ios-src=""
+      src="/dino.glb"
+      ios-src="/dino.usdz"
       poster="/unnamed.jpg"
       alt="A 3D model of an Xhype Room"
       shadow-intensity="1"

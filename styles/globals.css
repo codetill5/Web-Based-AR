@@ -26,3 +26,36 @@ model-viewer {
   background-color: #70bcd1;
   --poster-color: #ffffff00;
 }
+
+
+
+/* new  */
+
+.progress-bar.hide{
+  visibility: hidden;
+    transition: visibility 0.3s ease 0s;
+}
+
+.progress-bar {
+  display: block;
+  width: 33%;
+  height: 10%;
+  max-height: 2%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate3d(-50%, -50%, 0px);
+  border-radius: 25px;
+  box-shadow: rgb(0 0 0 / 50%) 0px 3px 10px 3px, rgb(0 0 0 / 60%) 0px 0px 5px 1px;
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.update-bar {
+  background-color: rgba(255, 255, 255, 0.9);
+  width: 0%;
+  height: 100%;
+  border-radius: 25px;
+  float: left;
+  transition: width 0.3s ease 0s;
+}
